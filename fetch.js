@@ -7,7 +7,7 @@ fetch('https://fakestoreapi.com/products').then((data)=>{
         datas+=` <div class="card">
         <div class="title">${values.title}</div>
         <img src="${values.image}" alt="" class="image">
-        <p class="price">${values.price}</p>
+        <p class="price">₹${values.price}</p>
     </div> `
     });
     document.getElementById("cards").innerHTML=datas;
