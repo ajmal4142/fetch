@@ -113,24 +113,29 @@ body{
         margin-top: 2.5rem;
     }
     #cards{
-        width: 400px;
-        margin-left: 20px;
+        width: 459px;
+        margin-left: 0px;
         margin-top: 1.2rem;
     }
     .card{
-        width: 85%;
+        width: 95%;
         height: 300px;
-        border: inset 3px black;
-        background: wheat;
+        border: none;
+        background: snow;
+        margin-top: 1rem;
+        margin-left: 1.3rem;
     }
     .image{
         height: 50%;
+    width: 69%;
+    padding-left: 8rem;
     }
     .price{
         padding-top: 2.5rem;
         font-size: .9rem;
     }
     .title{
-        font-size: 0.9rem;
+        padding-top: .5rem;
+        color: darkblue;
     }
 }
