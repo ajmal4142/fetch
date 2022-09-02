@@ -5,11 +5,10 @@ fetch('https://fakestoreapi.com/products').then((data)=>{
     completedata.map((values)=>{
         console.log(completedata)
         datas+=` <div class="card">
-                    <h3 class="title">${values.title}</h3>
-                    <img class="image" src="${values.image}" alt="">
-                    <p class="discription">${values.description}</p>
-                    <p class="price">${values.price}</p>
-                </div>`
+        <div class="title">${values.title}</div>
+        <img src="${values.image}" alt="" class="image">
+        <p class="price">${values.price}</p>
+    </div> `
     });
     document.getElementById("cards").innerHTML=datas;
 }).catch((err)=>{
