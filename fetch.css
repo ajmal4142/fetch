@@ -25,17 +25,18 @@ body{
 }
 .card{
     width:20%;
-    height: 380px;
+    height: 420px;
     border: solid 4px pink;
     margin-top: 1.9rem;
     margin-left: 3.2rem;
     margin-bottom: 1.5rem;
     border-style: dashed;
+    border-radius: 1rem;
 }
 .image{
     align-items: center;
     width: 93%;
-    height: 70%;
+    height: 65%;
     padding-left: 1.5rem;
 }
 .title{
